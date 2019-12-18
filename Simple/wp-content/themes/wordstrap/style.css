@@ -1,0 +1,33 @@
+/*
+    Theme Name: Wordstrap
+    Theme URI: https://hwebz.com
+    Author: Do Manh Ha
+    Author URI: https://hwebz.com
+    Description: This theme is for learning purpose, not for commercial purpose.
+    Version: 1.0.0
+*/
+
+article.post {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+article.post:last-child {
+    margin: 0;
+    border: none;
+}
+
+article.post .meta {
+    background-color: #f4f4f4;
+    padding: 5px;
+}
+
+article.post h2 {
+    margin-top: 0;
+}
+
+article.post img {
+    width: 100%;
+    height: auto;
+}

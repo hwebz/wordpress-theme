@@ -1,0 +1,47 @@
+/*
+    Theme Name: PhotoGenik
+    Author: hwebz
+    Author URI: https://hwebz.com
+    Description: Photo Gallery Theme
+    Version: 1.0.0
+ */
+body {
+    background: #333;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    color: #333;
+}
+
+header input {
+    margin-top: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.post {
+    padding: 20px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
