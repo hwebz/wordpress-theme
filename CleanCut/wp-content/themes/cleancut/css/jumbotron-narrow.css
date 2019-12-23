@@ -1,0 +1,29 @@
+body {
+    font-size: 15px;
+    color: #7a7a7a;
+    line-height: 1.7em;
+}
+
+.header,
+.marketing,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header {
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+
+.footer {
+    padding: 19px 0;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}

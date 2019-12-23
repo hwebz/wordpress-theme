@@ -1,0 +1,285 @@
+/*
+    Theme Name: Business Theme
+    Author: hwebz
+    Author URI: https://hwebz.com
+    Description: Business Theme for Wordpress
+    Version: 1.0.0
+ */
+
+a {
+    color: #0faf97;
+}
+
+.nav-pills > li.active > a {
+    background: #0faf97;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.nav-pills > li > a {
+    border: 1px solid #fff;
+}
+
+.nav-pills > li:hover > a {
+    background: #fff !important;
+    color: #0faf97 !important;
+    border: 1px solid #0faf97 !important;
+}
+
+.btn-primary {
+    background: #0faf97;
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-primary:hover {
+    background: #fff;
+    color: #0faf97;
+    border-color: #0faf97;
+}
+
+.btn-primary-reverse {
+    background: #fff;
+    color: #0faf97;
+    border-color: #0faf97;
+}
+
+.btn-primary-reverse:hover {
+    background: #0faf97;
+    color: #fff;
+    border-color: #fff;
+}
+
+.header .text-muted strong {
+    color: #0faf97;
+}
+
+.header img {
+    height: 70px;
+    width: auto;
+    margin-top: -15px;
+}
+
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 90px 0;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron > .container {
+    position: relative;
+}
+
+.clr {
+    clear: both;
+}
+
+.block {
+    border: 1px solid #ccc;
+    padding: 20px 20px 30px 20px;
+    text-align: center;
+}
+
+.block h3 {
+    color: #0faf97;
+}
+
+.fa-3 {
+    font-size: 4em;
+    color: #0faf97;
+}
+
+.content-region-2 img {
+    width: 100%;
+}
+
+.marketing {
+    margin: 40px 0;
+}
+
+.content-region-1 {
+    background: #0faf97;
+    color: #fff;
+    text-align: center;
+}
+
+.content-region-2 {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.content-region-3 {
+    background: #000;
+    color: #fff;
+}
+
+.content-region-3 h4 {
+    border-left: 5px solid #0faf97;
+    padding-left: 8px;
+    margin-bottom: 20px;
+}
+
+.content-region-1 h1,
+.content-region-2 h1 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+
+.content-region-3 form input[type="text"],
+.content-region-3 form textarea {
+    width: 100%;
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    margin-bottom: 10px;
+    border: 0;
+    resize: none;
+}
+
+.pt20 {padding-top: 20px;}
+.pt30 {padding-top: 30px;}
+.pt40 {padding-top: 40px;}
+.pt50 {padding-top: 50px;}
+.pt60 {padding-top: 60px;}
+.pb20 {padding-bottom: 20px;}
+.pb30 {padding-bottom: 30px;}
+.pb40 {padding-bottom: 40px;}
+.pb50 {padding-bottom: 50px;}
+.pb60 {padding-bottom: 60px;}
+
+.sidebar {
+    margin-bottom: 40px;
+}
+
+.side-widget {
+    border-left: 5px solid #0faf97;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.title-bar {
+    background: #0faf97;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #ccc;
+}
+
+article.post {
+    border-bottom: 1px solid #ccc;
+    overflow: auto;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+article.post .meta {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    overflow: auto;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+}
+
+article.post .meta li {
+    float: left;
+    margin-right: 20px;
+}
+
+article.post img {
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+article.post .btn {
+    display: block;
+}
+
+.panel-heading {
+    background: #0faf97 !important;
+    color: #fff !important;
+}
+
+.sidebar-widget ul {
+    padding: 0 !important;
+    list-style: none;
+}
+
+.sidebar-widget li {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.comments {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.comments h2, .comments h3 {
+    background: #0faf97;
+    color: #fff;
+    padding: 5px;
+}
+
+.comment-body {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+
+.comment {
+    list-style: none;
+}
+
+.comment-meta {
+    background: #333;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    overflow: auto;
+}
+
+.comment-meta img {
+    float: left;
+    margin-right: 10px;
+}
+
+.comment-meta time {
+    margin-left: 12px;
+}
+
+.comment-reply-link {
+    background: #0faf97;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    resize: none;
+}
