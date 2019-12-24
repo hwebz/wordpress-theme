@@ -1,0 +1,239 @@
+/*
+    Theme Name: Dynamo
+    Author: hwebz
+    Author URI: https://hwebz.com
+    Description: A Wordpress Theme
+    Version: 1.0.0
+ */
+
+@import "http://fonts.googleapis.com/css?family=Droid+Sans";
+
+body {
+    font-family: 'Droid Sans', serif;
+    line-height: 1.7em;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    min-width: 250px;
+}
+
+header {
+    padding: 10px 0;
+}
+
+header .logo {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+header .tagline {
+    margin: 0;
+    padding: 0;
+    color: #aaa;
+}
+
+header .header_r {
+    float: right;
+    padding-top: 10px;
+}
+
+.main-nav {
+    padding: 15px 0;
+}
+
+.main-nav li {
+    list-style: none;
+    float: left;
+    display: inline;
+}
+
+.main-nav li a {
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    color: #000;
+}
+
+.showcase {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.showcase img {
+    width: 100%;
+    height: 500px;
+}
+
+.unslider-arrow {
+    margin-top: -350px;
+    color: #fff;
+}
+
+.unslider-arrow .fa {
+    font-size: 45px;
+    opacity: 0.3;
+}
+
+.unslider-arrow .fa:hover {
+    opacity: 1;
+}
+
+.unslider-nav {
+    margin-top: 15px;
+}
+
+.caption {
+    padding: 15px;
+    margin-top: -10px;
+}
+
+.caption h2 {
+    margin: 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #666;
+}
+
+.post-wrap {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+.post .wp-post-image {
+    height: auto;
+    width: 100%;
+}
+
+.post:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #232323;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.bar {
+    color: #000;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.bar h1 {
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.sidebar-widget {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.sidebar-widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-widget ul li {
+    line-height: 2.2em;
+    border: 1px solid #666;
+    padding-left: 10px
+}
+
+.current-page-item a {
+    color: #fff;
+}
+
+.comments {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.comments h2, .comments h3 {
+    padding: 5px;
+    margin-top: 0;
+}
+
+.comment-body {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+
+.comment {
+    list-style: none;
+}
+
+.comment-meta {
+    display: block;
+    padding: 10px;
+    overflow: auto;
+}
+
+.comment-meta img {
+    float: left;
+    margin-right: 10px;
+}
+
+.comment-meta time {
+    margin-left: 12px;
+}
+
+.comment-reply-link {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.comment-form .submit {
+    margin: 0;
+}
