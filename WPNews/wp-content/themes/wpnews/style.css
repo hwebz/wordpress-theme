@@ -1,0 +1,125 @@
+/*
+    Theme Name: WP News
+    Author: hwebz
+    Author URI: https://hwebz.com
+    Description: WP News Theme for Wordpress using Ink Sapo
+    Version: 1.0.0
+ */
+
+.current_page_item {
+    background-color: #333;
+}
+
+.half-bottom-space,
+.archive-thumbnail{
+    width: 100%;
+    height: auto;
+}
+
+.meta {
+    background: #333;
+    padding: 5px;
+    color: #fff;
+    border-bottom: 3px solid #666;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+.wp-block-column img,
+.wp-block-image img{
+    width: 100%;
+}
+
+.wp-block-column figcaption,
+.wp-block-image figcaption {
+    color: #999;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+
+.wp-block-embed-youtube iframe {
+    width: 100%;
+    height: 525px;
+}
+
+.sidebar {
+    padding-left: 25px;
+}
+
+.sidebar li {
+    list-style: none;
+    line-height: 2.2em;
+    border-bottom: 1px dotted #ccc;
+}
+
+.comments {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.comments h2, .comments h3 {
+    background: #e3e3e3;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.comment-body {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+
+.comment {
+    list-style: none;
+}
+
+.comment-meta {
+    background: #e3e3e3;
+    display: block;
+    padding: 10px;
+    overflow: auto;
+}
+
+.comment-meta img {
+    float: left;
+    margin-right: 10px;
+}
+
+.comment-meta time {
+    margin-left: 12px;
+}
+
+.comment-reply-link {
+    background: #e3e3e3;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.current_page_item, .current-cat {
+    font-weight: bold;
+}
+
+
+.comment-form .submit {
+    margin: 0;
+}
